@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///disk/disk3tb/insync/java_class/AndroidStudioProjects/DisplayingBitmaps/AndroidStudioProjects-DisplayingBitmaps.iml" filepath="/disk/disk3tb/insync/java_class/AndroidStudioProjects/DisplayingBitmaps/AndroidStudioProjects-DisplayingBitmaps.iml" group="DisplayingBitmaps" />
+      <module fileurl="file:///disk/disk3tb/insync/java_class/AndroidStudioProjects/DisplayingBitmaps/Application/Application.iml" filepath="/disk/disk3tb/insync/java_class/AndroidStudioProjects/DisplayingBitmaps/Application/Application.iml" group="DisplayingBitmaps/Application" />
+    </modules>
+  </component>
+</project>

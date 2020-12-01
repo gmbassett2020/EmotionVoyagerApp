@@ -1,0 +1,4 @@
+#Sun Apr 19 15:44:49 PDT 2020
+base.0=/disk/disk3tb/insync/java_class/AndroidStudioProjects/DisplayingBitmaps/Application/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
