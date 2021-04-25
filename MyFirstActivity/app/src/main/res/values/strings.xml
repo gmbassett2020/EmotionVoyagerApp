@@ -1,5 +1,27 @@
 <resources>
     <string name="app_name">MyFirstActivity</string>
-    <string name="edit_message">Enter a message</string>
-    <string name="button_send">Send</string>
+    <string name="edit_message">Enter focus word -- is this used?</string>
+    <string name="button_send">Update</string>
+    <string name="focus_word_label">Focus word:</string>
+    <string name="focus_word_hint">Enter focus word</string>
+    <string name="valence_message">Valence (pos--neg or pleasure--displeasure)</string>
+    <string name="valence_value">--</string>
+    <string name="arousal_message">Arousal (excited--calm or active--passive)</string>
+    <string name="arousal_value">--</string>
+    <string name="dominance_message">Dominance (powerful--weak)</string>
+    <string name="dominance_value">--</string>
+    <string name="category_value">-</string>
+    <string name="category_message">an[G]er, [A]nticipation, [D]isgust, [F]ear, [J]oy, [S]adness, s[U]prise, [T]rust</string>
+    <string name="category_strength_value">--</string>
+    <string name="category_strength_message">1(saturated) to 0(unsaturated)</string>
+    <string name="list_level_value">0</string>
+    <string name="list_level_message">0-all, 1-feeling expanded, 2-feeling, 3-cnvc</string>
+    <string name="zoom_value">1</string>
+    <string name="zoom_message">zoom level: greater than 1 for high level, less than 1 to zoom in</string>
+    <string name="zone_higher_intensity">Higher Intensity</string>
+    <string name="zone_near_neighborhood">Near Neighborhood</string>
+    <string name="zone_lower_intensity">Lower Intensity</string>
+    <string name="zone_higher_intensity_text">-</string>
+    <string name="zone_near_neighborhood_text">-</string>
+    <string name="zone_lower_intensity_text">-</string>
 </resources>
