@@ -7,6 +7,6 @@
     <string name="apply_input">Get Results</string>
     <string name="previous">Back to Input</string>
 
-    <string name="hello_first_fragment">Hello first\nfragment</string>
+    <string name="hello_first_fragment">Enter one of the following:\n&lt;word&gt;\nuseCat &lt;char&gt; &lt;strength&gt;\n\tchar: G(anger),A(anticipation),D(disgust),F(fear),\n\t\tJ(joy),S(sadness),U(suprise),T(trust)\n\tstrength: 0(unsaturated) to 1(saturated)\nl&lt;level&gt;\n\tlevel: 0-all, 1-feeling expanded 2-feeling, 3-cnvc\nzoom &lt;float&gt;\n\tset amplification factor\nzoomBy &lt;float&gt;\n\tmultiply amplification by\n&lt;valence&gt; &lt;arousal&gt; &lt;dominance&gt;\n\tvalues from 0 to 1\n\tvalence: positive--negative or pleasure--displeasure\n\tarousal: excited--calm or active--passive\n\tdominance: powerful--weak or have control--have no control</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
