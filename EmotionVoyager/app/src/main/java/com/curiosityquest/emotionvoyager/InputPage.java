@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -11,11 +13,20 @@ import androidx.navigation.fragment.NavHostFragment;
 
 public class InputPage extends Fragment {
 
+    private EditText input_string;
+
+    private TextView current_values;
+
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
+
+        //input_string.findViewById(R.id.get_input);
+        //current_values = (TextView) current_values.findViewById(R.id.current_values);
+        //findViewById(R.id.currentValues).setText = "blah";
+
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_first, container, false);
     }
@@ -26,6 +37,7 @@ public class InputPage extends Fragment {
         view.findViewById(R.id.button_first).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //current_values.setText("blah"+input_string);
                 NavHostFragment.findNavController(InputPage.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
             }

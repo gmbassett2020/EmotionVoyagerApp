@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="current_valence">0.5</fraction>
+    <fraction name="current_arousal">0.5</fraction>
+    <fraction name="current_dominance">0.5</fraction>
+    <string name="current_category">CAT UNSPECIFIED</string>
+    <fraction name="current_category_strength">0.5</fraction>
+    <integer name="current_list_level">1</integer>
+    <fraction name="current_zoom">1.0</fraction>
+    <string name="current_value_string">No values specified yet.</string>
+</resources>
