@@ -13,9 +13,9 @@ import androidx.navigation.fragment.NavHostFragment;
 
 public class InputPage extends Fragment {
 
-    private EditText input_string;
+    private EditText inputString;
 
-    private TextView current_values;
+    private TextView currentValues;
 
     @Override
     public View onCreateView(
@@ -27,8 +27,26 @@ public class InputPage extends Fragment {
         //current_values = (TextView) current_values.findViewById(R.id.current_values);
         //findViewById(R.id.currentValues).setText = "blah";
 
+        View myInflatedView = inflater.inflate(R.layout.fragment_first, container,false);
+
+         // Set the Text to try this out
+        if (currentValues == null)
+        {
+            currentValues = (TextView) myInflatedView.findViewById(R.id.current_values);
+        }
+        String newText = currentValues.getText() + "; x";
+        currentValues.setText(newText);
+
+         return myInflatedView;
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_first, container, false);
+        //return inflater.inflate(R.layout.fragment_first, container, false);
+    }
+
+    public void onResume()
+    {
+        super.onResume();
+
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
@@ -38,8 +56,12 @@ public class InputPage extends Fragment {
             @Override
             public void onClick(View view) {
                 //current_values.setText("blah"+input_string);
+                view.invalidate();
+                /*
                 NavHostFragment.findNavController(InputPage.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
+
+                 */
             }
         });
     }
